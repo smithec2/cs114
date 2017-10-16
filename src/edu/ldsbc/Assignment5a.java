@@ -1,11 +1,13 @@
 package edu.ldsbc;
 
-import java.util.Random;
+
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Assignment5a {
     /**
-     * @auth CS 114 - Assignment 5a
+     * @auth Craig Smith
+     * @date 10/9/2017
+     * CS 114 - Assignment 5a
      * Package Name: chapter5
      * Objective: Random Numbers, If Statements
      * Import: java.util.scanner, java.util.random
@@ -34,9 +36,20 @@ public class Assignment5a {
     // why are random number important?
     public static void main(String[] args) {
 
-        while (true) {
-            int randNum = ThreadLocalRandom.current().nextInt(0, 100 + 1);
-            System.out.println(randNum);
+        //get 4 random numbers
+        int num1 = ThreadLocalRandom.current().nextInt(0, 100 + 1);
+        int num2 = ThreadLocalRandom.current().nextInt(0, 100 + 1);
+        int num3 = ThreadLocalRandom.current().nextInt(0, 100 + 1);
+        int num4 = ThreadLocalRandom.current().nextInt(0, 100 + 1);
+        //display number to user
+        //System.out.println(num1 "  + " +  num2 + " + " ;);
+        //get user input
+        //check input
+        //test if input is crrect
+
+        //int num1 = 1;
+        //int randNum = ThreadLocalRandom.current().nextInt(0, 100 + 1);
+        // System.out.println(randNum);
         }
-    }
+
 }

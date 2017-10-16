@@ -39,8 +39,8 @@ public class Assignment5b {
     public static void main(String[] args) {
 
         float money = 1.41f;
-        int moneyInCents = (int) (money * 100f);
-        int dollars = (int) money/100; //bug here
+        int moneyInCents = (int) (money * 100);
+        int dollars = (int) moneyInCents/100; //bug here
         moneyInCents = moneyInCents - dollars * 100;
         int quarters = moneyInCents/25;
         moneyInCents = moneyInCents - quarters * 25;

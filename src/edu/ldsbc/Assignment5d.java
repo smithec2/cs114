@@ -25,8 +25,14 @@ public class Assignment5d {
     public static void main(String[] args) {
 
         //make a truth table
+        String computer = "Rock";
+        String player = "Rock";
 
         // |computer | player  | winner   |
+        if(computer.equals("Rock") && player.equals("Rock"))
+        {
+            //result = .....
+        }
         // | Rock    | Rock    | draw     |
         // | Rock    | Paper   | player   |
         // | Rock    | Scissor | computer |
