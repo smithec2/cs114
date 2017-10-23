@@ -15,17 +15,21 @@ public class Assignment6c {
      Enter x and n: 4.5  3
      91.125
 
-
-
-
-
-
-
      */
 
 
     public static void main(String[] args) {
 
-        
+        System.out.println(powerFinder(3,2));
+        System.out.println(powerFinder(4.5,3));
+    }
+
+    private static double powerFinder(double x, int n) {
+        if(n > 1){
+            n--;
+           return x * powerFinder(x, (n--));
+        }
+
+        return x;
     }
 }

@@ -2,6 +2,7 @@ package edu.ldsbc;
 
 public class Assignment6b {
     /**
+     * @author Craig Smith
      * Package Name: chapter6
      * Objective: Methods
      * Import: java.util.scanner
@@ -37,7 +38,7 @@ public class Assignment6b {
             retValue = b;
         }
         //ternary operator
-        //retValue = (a < b) ? i : i1;
+        //retValue = (a < b) ? a : b;
 
         return retValue;
     }
