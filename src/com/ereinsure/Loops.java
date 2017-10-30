@@ -14,7 +14,8 @@ public class Loops {
         boolean sentinelValue = true;
         while(sentinelValue)
         {
-            System.out.println();
+            sentinelValue = false;
+            System.out.println("We are in a while loop");
         }
 
         //for (start at 10 to 20), (i+=2), (count backwards)
